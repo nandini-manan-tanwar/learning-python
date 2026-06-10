@@ -6,3 +6,5 @@ With f-string: print(f"Hello {first_name}") — clean
  conversion of variable from one data type to another 
  # whatis input () function
   the input() function is used to take input from the user during program execution
+# lower(). used for lower case conversion 
+# strip(). used for allowing blank space for user without counting it as string 
