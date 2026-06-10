@@ -6,6 +6,26 @@ n=int((input("number of times interest added")).strip())
 v=0 
 current_principal=principal_amt
 total_interest=0
+while principal_amt<=0:
+    principal_amt=int((input("enter the amount to be deposited")).strip())
+    if principal_amt<=0:
+        print("principal can't be less than or equal 0")
+
+while rate<=0:
+    rate=int((input("enter rate of interest")).strip())
+    if rate<=0:
+        print("rate can't be less than or equal 0")
+
+while time<=0:
+    time=int((input("enter the time for deposit")).strip())
+    if time<=0:
+        print("time can't be less than or equal 0")
+
+while n<=0:
+    n=int((input("number of times interest added")).strip())
+    if n<=0:
+        print("n can't be less than or equal 0")
+
 while v<time:
     interest=current_principal*(rate/n)
     v=v+1
