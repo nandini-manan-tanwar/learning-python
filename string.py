@@ -18,6 +18,8 @@ print(f"is name all digits? ans.{result5}")
 print(f"is name all alphabet ans.{result6}")
 print(f"n in name number is {result7}")
 print(f"new name = {result8}") 
+
+
 # string indexing 
 print(f"ans {name[0]:<10}")
 print(f"ans {name[0:5]:<10}")
