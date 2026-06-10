@@ -19,7 +19,7 @@ print(f"is name all alphabet ans.{result6}")
 print(f"n in name number is {result7}")
 print(f"new name = {result8}") 
 # string indexing 
-print(name[0])
-print(name[0:5])
-print(name[-1])
-print(name[::3]) #print every element at a gap of 3
+print(f"ans {name[0]:<10}")
+print(f"ans {name[0:5]:<10}")
+print(f"ans {name[-1]:<10}")
+print(f"ans {name[::3]:<10}") #print every element at a gap of 3
