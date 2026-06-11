@@ -12,7 +12,9 @@
 #- `string_exercise.py` — string indexing & practice
 
 ## 🛠️ Mini Projects
+#-`compound_interest_calculator`
 #- `madlibsgame.py` — mad libs word game
+#- `countdowntimer.py`
 #- `calculator.py` — basic calculator
 #- `weightconverter.py` — weight unit converter
 #- `math_problems.py` — area calculator + shopping cart
