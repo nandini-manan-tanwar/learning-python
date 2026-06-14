@@ -10,6 +10,10 @@
 #- `if_statements.py` — conditional logic
 #- `string.py` — string methods
 #- `string_exercise.py` — string indexing & practice
+# - `loops.py` — for loops & while loops
+# - `nestedloop.py` — nested loops
+# - `collection.py` — lists, sets, tuples
+# - `2dcollection.py` — 2D collections
 
 ## 🛠️ Mini Projects
 #-`compound_interest_calculator`
@@ -18,3 +22,4 @@
 #- `calculator.py` — basic calculator
 #- `weightconverter.py` — weight unit converter
 #- `math_problems.py` — area calculator + shopping cart
+#- `shoppingcart.py` — shopping cart program
