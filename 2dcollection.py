@@ -3,4 +3,5 @@ print(groceries[0][2])
 
 for collection in groceries:
     for food in collection:
-        print([food])
+        print([food],end='')
+    print()
