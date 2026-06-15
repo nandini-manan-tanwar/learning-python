@@ -8,3 +8,14 @@ With f-string: print(f"Hello {first_name}") — clean
   the input() function is used to take input from the user during program execution
 # lower(). used for lower case conversion 
 # strip(). used for allowing blank space for user without counting it as string 
+
+# for collection in groceries:
+    for food in collection:
+        print([food])
+# the above loop means 
+First loop
+for collection in groceries:
+Python automatically takes one element at a time from groceries.
+Iteration 1: collection = ["apple", "orange", "banana", "coconut"]
+Iteration 2:collection = ["celery", "carrots", "potatoes"]
+Iteration 3:collection = ["chicken", "fish", "turkey"]
