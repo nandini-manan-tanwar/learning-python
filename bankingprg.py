@@ -1,29 +1,39 @@
 def show_balance():
-    pass
+    print(f"your balance is : {balance}") 
 
 def deposit():
-    pass
-
+    
+      amount=float(input("enter your amount to be deposited"))
+      while amount<0:
+             amount=float(input("it is not valid amount"))
+      else:
+             return amount
+   
 def withdraw():
-    pass
+    amount=float(input("enter the amount to be withdrawn"))
+    if amount > balance:
+      amount=float(input("enter the valid  amount to be withdrawn"))
+    else:   
+      return amount
 
-
+balance=0
 is_running=True
 def user_choice (choice):
+     global balance
      match choice:
         case 1:
            show_balance()
         case 2 :
-           deposit()
+          balance += deposit()
+          return True
         case 3 :
-           withdraw()
+          balance -= withdraw()
         case 4 :
            return  False
         case _:
            print("enter valid choice please ") 
      
      return True
-          
         
 while is_running:
     print("welcome to bob")
@@ -35,4 +45,5 @@ while is_running:
     choice= int(input("enter valid choice"))
     is_running = user_choice(choice) 
     
+
 
