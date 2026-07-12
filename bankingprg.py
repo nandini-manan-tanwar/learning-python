@@ -27,7 +27,7 @@ def user_choice (choice):
           balance += deposit()
           return True
         case 3 :
-          balance -= withdraw()
+          balance -= int(withdraw())
         case 4 :
            return  False
         case _:
